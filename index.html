@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Arthurzika.jpg" alt="avatar de Arthur" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Olá. EU me chamo Arthur!!!</p>
+        <h1>Eu sou um estudante de Programação</h1>
+        <p>Sou uma pessoa de mente aberta que tem facilidade para aprender, e hoje vou demonstrar que os cursos da AluraStart são indicações profissionais boas no mercado
+        de trabalho</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Projetos que eu fiz</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Correr.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Fazendo uma corrida no P5js</h5>
+                        <p class="card-text">Neste projeto que a AluraStart preparou para mim, fiz um jogo interativo em uma página para jogos chamada de P5js. </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Cards.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Os Flashcards, uma forma de aprender jogando</h5>
+                        <p class="card-text">Este projeto é bem diferente do primeiro, é um jogo de cartas de curiosidades gerais.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Jogosite.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Biblioteca de Jogos, e menções de Streamers.
+                        </h5>
+                        <p class="card-text">Neste projeto foi feito um site de biblioteca de jogos online e em alta, além de mencionar
+                            um dos maiores streamers do Brasil.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo de corrida, competição entre emojis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um jogo interativo, que temos uma corrida de emojis.</p>
+                    <p>O jogo é feito em 100% JavaScript na plataforma de edição de jogos P5js, que proporcionou a criação
+                        desse projeto.
+                    </p>
+                    <p>Esse jogo tem como entúito demonstrar como que um jogo pode ser feito sem um design profissional
+                        apenas com um conhecimento básico, eu programei uma ação básica para os emojis se moverem.</p>
+                    <img src="img/Correr.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Halltake/full/InBIHl7G6">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cards de perguntas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        ajuda no estudo de novas coisas, curiosidades recentes, antigas, etc.
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
+                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
+                        é utilizado para estilizar a página, empregando um esquema de cores chamativas e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao jogo, manipulando o DOM para animar os cards e ajudar na interação.</p>
+                    <p>Os scripts JavaScript incluem módulos para gerar cards animados, definir as perguntas e as
+                        lógicas de jogo, como iniciar o jogo, apresentar perguntas e alternativas, processar as escolhas
+                        dos jogadores, e exibir o resultado final. Este design modular facilita a manutenção e a
+                        expansão do jogo. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
+                        na criação de uma experiência interativa que não apenas entretém, mas também educa os jogadores
+                        sobre coisas que vemos em nossa vida, mas não lembramos.
+                    </p>
+                    <img src="img/Cards.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://arthurbenitz.github.io/flashcardss">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/arthurbenitz/flashcardss">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é um site feito por mim. ele proporciona a visão de vários jogos online para
+                        o público gamer.</p>
+                    <p>O HTML e o CSS Funcionam de forma sincronizada, com o HTMl deixando a estrutura bem feita
+                        e o CSS como um estilista do site, deixando suas cores bem chamativas e estéticamente perfeitas.</p>
+                    <img src="img/Jogosite.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://arthurbenitz.github.io/agr-foi-ufa">Ver projeto ao vivo</a>
+                    <a href="https://github.com/arthurbenitz/agr-foi-ufa">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/arthurbetitz">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Arthur Lamberti Benitz</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
